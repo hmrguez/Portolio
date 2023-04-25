@@ -188,7 +188,8 @@ span{
 }
 
 .services-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -196,7 +197,6 @@ span{
 }
 
 .services-container .services-box{
-    flex: 1 1 30rem;
     background-color: var(--bg-secondary-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -234,7 +234,7 @@ span{
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
 }
